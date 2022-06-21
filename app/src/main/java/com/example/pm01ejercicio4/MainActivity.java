@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_photo);
+        setContentView(R.layout.activity_main);
 
         ObjectImage = (ImageView) findViewById(R.id.Fotografia);
         btnfoto = (Button) findViewById(R.id.btnfoto);

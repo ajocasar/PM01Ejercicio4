@@ -41,9 +41,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PM012PP1">
+        android:theme="@style/Theme.PM01Ejercicio4">
         <activity
-            android:name=".ActivityPhoto"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,31 +51,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ActivityCombo"
-            android:exported="true">
 
-        </activity>
-        <activity
-            android:name=".ActivityList"
-            android:exported="true"></activity>
-        <activity
-            android:name=".ActivityConsulta"
-            android:exported="true" />
-        <activity
-            android:name=".ActivityCrear"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
 
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.aplicacion.pm012pp1.fileprovider"
+            android:authorities="com.example.pm01ejercicio4.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
