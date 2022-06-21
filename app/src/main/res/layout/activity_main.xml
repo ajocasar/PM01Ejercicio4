@@ -6,13 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/Fotografia"
+        android:layout_width="401dp"
+        android:layout_height="323dp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
+    <Button
+        android:id="@+id/btnfoto"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="358dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
