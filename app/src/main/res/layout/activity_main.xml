@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-tools:context=".activity_main">
-
-
-<ImageView
-    android:id="@+id/Fotografia"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="341dp"
-    tools:srcCompat="@tools:sample/avatars" />
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityPhoto">
 
-<Button
-    android:id="@+id/btnfoto"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Tomar Foto" />
+
+    <ImageView
+        android:id="@+id/Fotografia"
+        android:layout_width="match_parent"
+        android:layout_height="341dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/btnfoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tomar_foto" />
 </LinearLayout>

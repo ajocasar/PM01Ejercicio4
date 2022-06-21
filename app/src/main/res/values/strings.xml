@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PM01Ejercicio4</string>
+    <string name="tomar_foto">Tomar Foto</string>
+    <string name="todo">TODO</string>
 </resources>
