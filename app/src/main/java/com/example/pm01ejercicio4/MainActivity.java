@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity
     static  final int REQUESTCODECAMARA = 100;
     static  final int REQUESTTAKEPHOTO = 101;
     ImageView ObjectImage;
-    Button btnfoto;
+    Button btnfoto, btninsert;
     String PathFoto;
     String currentPhotoPath;
 

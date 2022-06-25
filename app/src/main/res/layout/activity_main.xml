@@ -4,23 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DFDDDD"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
 
     <ImageView
         android:id="@+id/Fotografia"
         android:layout_width="match_parent"
-        android:layout_height="341dp"
-        android:contentDescription="@string/todo"
-        android:visibility="visible"
-        tools:ignore="ImageContrastCheck"
-        tools:srcCompat="@tools:sample/avatars"
-        tools:visibility="visible" />
+        android:layout_height="291dp"
+        app:srcCompat="@drawable/png" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="7dp"
+        android:background="#C1BEBE"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtdes"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="7dp"
+        android:background="#C1BEBE"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnfoto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tomar_foto" />
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="7dp"
+        android:text="Tomar Foto" />
+
+    <Button
+        android:id="@+id/btninsert"
+        android:layout_width="133dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="7dp"
+        android:text="A SQLite" />
+
 </LinearLayout>
