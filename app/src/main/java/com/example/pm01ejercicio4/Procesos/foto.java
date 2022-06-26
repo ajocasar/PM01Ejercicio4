@@ -2,13 +2,10 @@ package com.example.pm01ejercicio4.Procesos;
 
 public class foto
 {
+
     private String txtnombre;
     private String txtdes;
-
-    public foto(String txtnombre, String txtdes) {
-        this.txtnombre = txtnombre;
-        this.txtdes = txtdes;
-    }
+    private blob Fotografia;
 
     public String getTxtnombre() {
         return txtnombre;
@@ -26,7 +23,17 @@ public class foto
         this.txtdes = txtdes;
     }
 
+    public void setFotografia(blob fotografia) {
+        Fotografia = fotografia;
+    }
 
+    public blob getFotografia() {
+        return Fotografia;
+    }
 
-
+    public foto(String txtnombre, String txtdes, blob fotografia) {
+        this.txtnombre = txtnombre;
+        this.txtdes = txtdes;
+        Fotografia = fotografia;
+    }
 }

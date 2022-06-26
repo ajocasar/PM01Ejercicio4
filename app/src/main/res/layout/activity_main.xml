@@ -56,4 +56,10 @@
         android:layout_marginTop="7dp"
         android:text="A SQLite" />
 
+    <Button
+        android:id="@+id/btnPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Fotos" />
+
 </LinearLayout>

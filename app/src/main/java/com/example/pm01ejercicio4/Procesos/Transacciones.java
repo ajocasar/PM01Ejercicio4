@@ -8,11 +8,15 @@ public class Transacciones {
 
     public static final String nombre = "txtnombre";
     public static final String desc = "txtdes";
+    public static final String img;
 
+    static {
+        img = "Fotografia";
+    }
 
 
     //tablas -CREATE, DROP
-    public static final String CreateTableFoto = "CREATE TABLE foto( nombre TEXT, desc TEXT, Fotografia blob not null)";
+    public static final String CreateTableFoto = "CREATE TABLE foto( nombre TEXT, desc TEXT, img blob not null)";
 
     public static final String DropTableFoto = "DROP TABLE IF EXISTS foto";
 

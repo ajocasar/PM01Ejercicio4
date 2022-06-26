@@ -44,6 +44,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PM01Ejercicio4">
         <activity
+            android:name=".ActivityFotos"
+            android:exported="false" />
+        <activity
             android:name=".ActivityLista"
             android:exported="false" />
         <activity
